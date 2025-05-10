@@ -6,6 +6,7 @@
 
 body {
     background: #FAF3E0;
+    font-family: 'Noto Sans JP', 'Roboto', sans-serif;
 }
 
 header {
@@ -53,6 +54,11 @@ main {
     text-align: center;
 }
 
+.sub-titulo {
+    font-size: 2.5rem;
+    text-align: center;
+}
+
 #campoBanner {
     display: flex;
     justify-content: center;
@@ -63,5 +69,32 @@ main {
 #banner {
     width: 100%;
     height: 60vh;
+    border-radius: 20px;
+}
+
+.sobre {
+    display: flex;
+    gap: 20px;
+}
+
+.sobre-texto {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 50%;
+}
+
+.sobre-texto .paragrafo {
+    width: 100%;
+    font-size: 2rem;
+}
+
+.campoImg {
+    width: 50%;
+}
+
+.imagem {
+    width: 100%;
+    height: 100%;
     border-radius: 20px;
 }
