@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #FAF3E0;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+    background: #B03A2E;
+    font-size: 1.2rem;
+    align-items: center;
+}
+
+header #logo {
+    font-size: 1.5rem;
+    color: #fff;
+    text-decoration: none;
+}
+
+header nav ul {
+    display: flex;
+    gap: 20px;
+    list-style: none;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+header nav ul li a:hover {
+    text-decoration: underline #6e241c;;
+}
