@@ -20,5 +20,33 @@
             </ul>
         </nav>
     </header>   
+    <main>
+        <h1 id="titulo">Entre em contato conosco</h1>
+        <div id="contato">
+            <form id="form" class="form">
+                <article id="control">
+                    <label for="nome">Nome</label>
+                    <input type="text" id="nome" name="nome">
+                    <i class="erro"><img src="" alt=""></i>
+                    <small>Erro</small>
+                </article>
+
+                <article id="control">
+                    <label for="email">E-mail</label>
+                    <input type="email" id="email" name="email">
+                    <i class="erro"><img src="" alt=""></i>
+                    <small>Erro</small>
+                </article>
+
+                <article id="control">
+                    <label for="descricao">Descrição</label>
+                    <textarea type="text" id="descricao" name="descricao" required></textarea>
+                    <i class="erro"><img src="" alt=""></i>
+                    <small>Erro</small>
+                </article>
+            </form>
+            <button type="submit" onclick="validar()">Enviar</button>
+        </div>
+    </main>
 </body>
 </html>
