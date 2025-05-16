@@ -161,3 +161,80 @@ main {
 #control #descricao {
     height: 100px;
 }
+
+footer {
+    display: flex;
+    flex-direction: column;
+    background: #B03A2E;
+    align-items: center;
+    padding: 30px;
+    margin-top: 30px;
+    color: #fff;
+    gap: 50px;
+}
+
+footer .paragrafo {
+    color: #fff;
+}
+
+#rodape {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#contatoRodape {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+#meiosContato {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#linksHeader {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+#links {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+}
+
+#links a {
+    text-decoration: none;
+    color: #fff;
+}
+
+#links a:hover {
+    text-decoration: underline #6e241c;
+}
+
+#redes {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+#redes #iconeRedes {
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+#direitos {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
