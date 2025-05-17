@@ -310,7 +310,7 @@ footer .paragrafo {
     justify-content: center;
     align-items: flex-end;
 }
-@media(max-width:768px){
+@media(width <= 768px){
     header {
         display: flex;
         flex-direction: column;
